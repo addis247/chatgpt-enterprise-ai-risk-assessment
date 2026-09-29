@@ -4,7 +4,11 @@
 
 This project demonstrates a simulated AI governance and third-party risk assessment of ChatGPT Enterprise within a fictional healthcare organization.
 
-The assessment evaluates security, privacy, compliance, governance, and operational risks associated with adopting generative AI technology in an enterprise environment.
+The assessment evaluates security, privacy, compliance, governance, operational, and third-party risks associated with adopting generative AI technology in an enterprise environment.
+
+The objective was to determine whether ChatGPT Enterprise could be approved for organizational use while maintaining appropriate governance, security, and compliance controls.
+
+---
 
 ## Frameworks Applied
 
@@ -13,38 +17,102 @@ The assessment evaluates security, privacy, compliance, governance, and operatio
 - NIST Cybersecurity Framework (CSF) 2.0
 - NIST SP 800-53 Rev. 5
 
+---
+
 ## Assessment Scope
 
-The organization evaluated the use of ChatGPT Enterprise for:
+The assessment evaluated the use of ChatGPT Enterprise for:
 
 - Internal document drafting
 - Administrative document summarization
-- Employee productivity
+- Employee productivity enhancement
 - Policy and training material development
 
-Clinical use cases and regulated healthcare data were excluded from scope.
+Out-of-scope activities included:
 
-## Key Activities
+- Clinical decision-making
+- Protected Health Information (PHI)
+- Regulated healthcare data
+- Payment card information
+- Sensitive authentication credentials
 
-- AI Risk Assessment
+---
+
+## Deliverables
+
+The project includes the following assessment artifacts:
+
+- Executive Summary
+- Risk Register
+- NIST AI RMF Crosswalk
+- Final Recommendation
+
+---
+
+## Assessment Activities
+
+- AI Governance Review
 - Third-Party Risk Assessment
-- Vendor Security Questionnaire
+- Vendor Security Evaluation
+- AI Risk Assessment
 - Risk Register Development
-- Governance Review
-- NIST Framework Crosswalk
+- NIST Framework Mapping
 - Executive Risk Reporting
+- Control Recommendations
 
-## Skills Demonstrated
+---
+
+## Key Risks Identified
+
+- Sensitive information disclosure through AI prompts
+- AI hallucinations and inaccurate outputs
+- Prompt injection attacks
+- Unauthorized access and excessive permissions
+- Data retention and monitoring limitations
+- Third-party vendor dependency risks
+- Regulatory and compliance concerns
+
+---
+
+## Key Skills Demonstrated
 
 - AI Governance
-- GRC
-- Third-Party Risk Management
+- Governance, Risk & Compliance (GRC)
+- Third-Party Risk Management (TPRM)
 - Risk Assessment
-- NIST AI RMF
+- NIST AI RMF Application
+- NIST 800-53 Control Mapping
+- Security Governance
 - Compliance Analysis
-- Security Documentation
+- Executive Reporting
 - Risk Treatment Planning
 
-## Disclaimer
+---
 
-This project is a simulated educational portfolio project created for professional development purposes. No proprietary information was used.
+## Assessment Outcome
+
+**Conditionally Approved**
+
+ChatGPT Enterprise may be approved for limited organizational deployment provided that governance, security, monitoring, access management, and compliance controls are implemented prior to production use.
+
+---
+
+## Repository Structure
+
+```text
+Documentation/
+├── Executive-Summary.md
+
+Deliverables/
+├── Risk-Register.md
+├── NIST-AI-RMF-Crosswalk.md
+└── Final-Recommendation.md
+
+Artifacts/
+```
+
+---
+
+## Portfolio Disclaimer
+
+This project is a simulated educational portfolio project created for professional development purposes. No proprietary, confidential, or regulated organizational data was used. All organizational scenarios, findings, and recommendations are for educational and portfolio demonstration purposes only.
