@@ -1,3 +1,7 @@
 # Project Artifacts
 
-Supporting worksheets, diagrams, screenshots, and supplementary project evidence.
+This folder contains supporting visual documentation used during the assessment process.
+
+## Files
+
+- AI-Governance-Workflow.png
