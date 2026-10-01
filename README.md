@@ -89,6 +89,15 @@ The project includes the following assessment artifacts:
 
 ---
 
+## Supporting Artifacts
+
+The repository includes a visual workflow illustrating the AI governance assessment lifecycle from business request through final approval recommendation.
+
+See:
+Artifacts/AI-Governance-Workflow.png
+
+---
+
 ## Assessment Outcome
 
 **Conditionally Approved**
